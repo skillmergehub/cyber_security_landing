@@ -596,19 +596,73 @@ export default function Home() {
               </p>
             </div>
             <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
-              {[...Array(6)].map((_, i) => (
-                <div key={i} className="flex items-center justify-center">
-                  <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
-                    <Image
-                      src={`/placeholder.svg?height=60&width=120`}
-                      alt={`Placement partner logo ${i + 1}`}
-                      width={120}
-                      height={60}
-                      className="object-contain"
-                    />
-                  </div>
+              {/* Add images manually */}
+              <div className="flex items-center justify-center">
+                <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
+                  <Image
+                    src="/Google__G__logo.svg.png" // Replace with your actual image path
+                    alt="Company 1 Logo"
+                    width={120}
+                    height={60}
+                    className="object-contain"
+                  />
                 </div>
-              ))}
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
+                  <Image
+                    src="/images.png" // Replace with your actual image path
+                    alt="Company 2 Logo"
+                    width={120}
+                    height={60}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
+                  <Image
+                    src="/images (1).png" // Replace with your actual image path
+                    alt="Company 3 Logo"
+                    width={120}
+                    height={60}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
+                  <Image
+                    src="/images (2).png" // Replace with your actual image path
+                    alt="Company 4 Logo"
+                    width={120}
+                    height={60}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
+                  <Image
+                    src="/images (3).png" // Replace with your actual image path
+                    alt="Company 5 Logo"
+                    width={120}
+                    height={60}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
+                  <Image
+                    src="/images (4).png" // Replace with your actual image path
+                    alt="Company 6 Logo"
+                    width={120}
+                    height={60}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
             </div>
             <div className="mx-auto max-w-3xl space-y-4 text-center">
               <h3 className="text-2xl font-bold">Placement Success Rate</h3>
