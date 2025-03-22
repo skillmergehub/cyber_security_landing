@@ -129,27 +129,43 @@ export default function Home() {
             <div className="flex items-center justify-center lg:justify-end">
               <div className="w-full max-w-md space-y-4 rounded-xl border bg-background/60 p-6 backdrop-blur">
                 <div className="space-y-2 text-center">
-                  <h2 className="text-2xl font-bold">Get Started Today</h2>
+                  <h2 className="text-2xl font-bold">
+                    Get a free consultation Today
+                  </h2>
                   <p className="text-sm text-muted-foreground">
                     Fill out the form below to receive program details and a
                     free consultation.
                   </p>
                 </div>
-                <form className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Input placeholder="Full Name" />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <Input type="email" placeholder="Email Address" />
-                  </div>
-                  <div className="space-y-2">
-                    <Input type="tel" placeholder="Phone Number" />
-                  </div>
-                  <div className="space-y-2">
-                    <Input placeholder="Your Highest Qualification" />
-                  </div>
+                <form
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSdbzF-aG4BRgDa09IdzH3cs_lACvSF-JGQE7tocl6CTPcnX-Q/formResponse"
+                  method="POST"
+                  target="_blank"
+                  className="space-y-4"
+                >
+                  <Input
+                    name="entry.123456789" // Replace with actual entry ID
+                    placeholder="Full Name"
+                    required
+                  />
+                  <Input
+                    name="entry.987654321" // Replace with actual entry ID
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <Input
+                    name="entry.456789123" // Replace with actual entry ID
+                    type="tel"
+                    placeholder="Phone Number"
+                    required
+                  />
+                  <Input
+                    name="entry.789123456" // Replace with actual entry ID
+                    placeholder="Your Highest Qualification"
+                    required
+                  />
+
                   <div className="space-y-2">
                     <label
                       htmlFor="mode-of-study"
@@ -158,23 +174,19 @@ export default function Home() {
                       Mode of Study
                     </label>
                     <select
+                      name="entry.321654987" // Replace with actual entry ID
                       id="mode-of-study"
-                      className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                      className="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none"
                     >
                       <option value="">Select Mode of Study</option>
                       <option value="onsite">Onsite</option>
                       <option value="online">Online</option>
                     </select>
                   </div>
+
                   <Button type="submit" className="w-full">
                     Submit Inquiry
                   </Button>
-                  <p className="text-xs text-center text-muted-foreground">
-                    By submitting, you agree to our{" "}
-                    <Link href="#" className="underline underline-offset-2">
-                      Terms & Privacy Policy
-                    </Link>
-                  </p>
                 </form>
               </div>
             </div>
@@ -348,7 +360,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <div className="h-16 w-32 rounded-lg bg-background p-2 flex items-center justify-center">
                   <img
-                    src="/WhatsApp Image 2025-01-29 at 12.35.50 PM.jpeg"
+                    src="/WhatsApp_Image_2025-01-29_at_12.35.50_PM-removebg-preview (1).png"
                     alt="Partner 4 Logo"
                     className="object-contain h-12"
                   />
@@ -373,7 +385,7 @@ export default function Home() {
                 href="#contact"
                 className="px-6 py-3 border border-gray-500 rounded-lg text-lg font-semibold hover:bg-gray-100"
               >
-                Become a Partner
+                Book a Free Demo Session
               </a>
             </div>
           </div>
@@ -577,7 +589,7 @@ export default function Home() {
             </Tabs>
             <div className="flex justify-center">
               <Link href="#apply">
-                <Button size="lg">Apply Now to Learn These Tools</Button>
+                <Button size="lg"> Book a Free Demo Session</Button>
               </Link>
             </div>
           </div>
@@ -600,7 +612,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
                   <Image
-                    src="/Google__G__logo.svg.png" // Replace with your actual image path
+                    src="/channels4_profile-removebg-preview.png" // Replace with your actual image path
                     alt="Company 1 Logo"
                     width={120}
                     height={60}
@@ -611,7 +623,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
                   <Image
-                    src="/images.png" // Replace with your actual image path
+                    src="/images-removebg-preview.png" // Replace with your actual image path
                     alt="Company 2 Logo"
                     width={120}
                     height={60}
@@ -622,7 +634,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
                   <Image
-                    src="/images (1).png" // Replace with your actual image path
+                    src="/images__1_-removebg-preview.png" // Replace with your actual image path
                     alt="Company 3 Logo"
                     width={120}
                     height={60}
@@ -633,7 +645,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
                   <Image
-                    src="/images (2).png" // Replace with your actual image path
+                    src="/images__2_-removebg-preview.png" // Replace with your actual image path
                     alt="Company 4 Logo"
                     width={120}
                     height={60}
@@ -644,7 +656,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
                   <Image
-                    src="/images (3).png" // Replace with your actual image path
+                    src="/images__3_-removebg-preview.png" // Replace with your actual image path
                     alt="Company 5 Logo"
                     width={120}
                     height={60}
@@ -655,7 +667,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <div className="h-16 w-32 rounded-lg bg-muted p-2 flex items-center justify-center">
                   <Image
-                    src="/images (4).png" // Replace with your actual image path
+                    src="/images__4_-removebg-preview.png" // Replace with your actual image path
                     alt="Company 6 Logo"
                     width={120}
                     height={60}
@@ -668,13 +680,15 @@ export default function Home() {
               <h3 className="text-2xl font-bold">Placement Success Rate</h3>
               <div className="grid gap-8 sm:grid-cols-3">
                 <div className="space-y-2">
-                  <div className="text-4xl font-bold text-primary">92%</div>
+                  <div className="text-4xl font-bold text-primary">95%</div>
                   <p className="text-sm text-muted-foreground">
                     Placement Rate
                   </p>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-4xl font-bold text-primary">$85K</div>
+                  <div className="text-4xl font-bold text-primary">
+                    12-24LPA
+                  </div>
                   <p className="text-sm text-muted-foreground">
                     Average Starting Salary
                   </p>
@@ -690,7 +704,7 @@ export default function Home() {
             <div className="flex justify-center">
               <Link href="#contact">
                 <Button variant="outline" size="lg">
-                  Become a Hiring Partner
+                  Book a Free Demo Session
                 </Button>
               </Link>
             </div>
@@ -917,21 +931,35 @@ export default function Home() {
                       free consultation.
                     </p>
                   </div>
-                  <form className="space-y-4">
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="space-y-2">
-                        <Input placeholder="Full Name" />
-                      </div>
-                    </div>
-                    <div className="space-y-2">
-                      <Input type="email" placeholder="Email Address" />
-                    </div>
-                    <div className="space-y-2">
-                      <Input type="tel" placeholder="Phone Number" />
-                    </div>
-                    <div className="space-y-2">
-                      <Input placeholder="Your Highest Qualification" />
-                    </div>
+                  <form
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSdbzF-aG4BRgDa09IdzH3cs_lACvSF-JGQE7tocl6CTPcnX-Q/formResponse"
+                    method="POST"
+                    target="_blank"
+                    className="space-y-4"
+                  >
+                    <Input
+                      name="entry.123456789" // Replace with actual entry ID
+                      placeholder="Full Name"
+                      required
+                    />
+                    <Input
+                      name="entry.987654321" // Replace with actual entry ID
+                      type="email"
+                      placeholder="Email Address"
+                      required
+                    />
+                    <Input
+                      name="entry.456789123" // Replace with actual entry ID
+                      type="tel"
+                      placeholder="Phone Number"
+                      required
+                    />
+                    <Input
+                      name="entry.789123456" // Replace with actual entry ID
+                      placeholder="Your Highest Qualification"
+                      required
+                    />
+
                     <div className="space-y-2">
                       <label
                         htmlFor="mode-of-study"
@@ -940,23 +968,19 @@ export default function Home() {
                         Mode of Study
                       </label>
                       <select
+                        name="entry.321654987" // Replace with actual entry ID
                         id="mode-of-study"
-                        className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                        className="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none"
                       >
                         <option value="">Select Mode of Study</option>
                         <option value="onsite">Onsite</option>
                         <option value="online">Online</option>
                       </select>
                     </div>
+
                     <Button type="submit" className="w-full">
                       Submit Inquiry
                     </Button>
-                    <p className="text-xs text-center text-muted-foreground">
-                      By submitting, you agree to our{" "}
-                      <Link href="#" className="underline underline-offset-2">
-                        Terms & Privacy Policy
-                      </Link>
-                    </p>
                   </form>
                 </div>
               </div>
@@ -1010,9 +1034,11 @@ export default function Home() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-bold">Call Us</h3>
-                      <p className="text-sm text-muted-foreground">1234579</p>
                       <p className="text-sm text-muted-foreground">
-                        4989878989884
+                        9946746422
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        9947340180
                       </p>
                     </div>
                   </div>
@@ -1037,7 +1063,7 @@ export default function Home() {
                     <div className="space-y-1">
                       <h3 className="font-bold">Email Us</h3>
                       <p className="text-sm text-muted-foreground">
-                        admissions@cyberedu.com
+                        admissions@skillmerge.in
                       </p>
                     </div>
                   </div>
@@ -1149,21 +1175,35 @@ export default function Home() {
                     possible.
                   </p>
                 </div>
-                <form className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Input placeholder="Full Name" />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <Input type="email" placeholder="Email Address" />
-                  </div>
-                  <div className="space-y-2">
-                    <Input type="tel" placeholder="Phone Number" />
-                  </div>
-                  <div className="space-y-2">
-                    <Input placeholder="Your Highest Qualification" />
-                  </div>
+                <form
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSdbzF-aG4BRgDa09IdzH3cs_lACvSF-JGQE7tocl6CTPcnX-Q/formResponse"
+                  method="POST"
+                  target="_blank"
+                  className="space-y-4"
+                >
+                  <Input
+                    name="entry.123456789" // Replace with actual entry ID
+                    placeholder="Full Name"
+                    required
+                  />
+                  <Input
+                    name="entry.987654321" // Replace with actual entry ID
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <Input
+                    name="entry.456789123" // Replace with actual entry ID
+                    type="tel"
+                    placeholder="Phone Number"
+                    required
+                  />
+                  <Input
+                    name="entry.789123456" // Replace with actual entry ID
+                    placeholder="Your Highest Qualification"
+                    required
+                  />
+
                   <div className="space-y-2">
                     <label
                       htmlFor="mode-of-study"
@@ -1172,23 +1212,19 @@ export default function Home() {
                       Mode of Study
                     </label>
                     <select
+                      name="entry.321654987" // Replace with actual entry ID
                       id="mode-of-study"
-                      className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                      className="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none"
                     >
                       <option value="">Select Mode of Study</option>
                       <option value="onsite">Onsite</option>
                       <option value="online">Online</option>
                     </select>
                   </div>
+
                   <Button type="submit" className="w-full">
                     Submit Inquiry
                   </Button>
-                  <p className="text-xs text-center text-muted-foreground">
-                    By submitting, you agree to our{" "}
-                    <Link href="#" className="underline underline-offset-2">
-                      Terms & Privacy Policy
-                    </Link>
-                  </p>
                 </form>
               </div>
             </div>
