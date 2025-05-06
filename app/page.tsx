@@ -1206,7 +1206,7 @@ export default function Home() {
                     required
                   />
 
-                  <div className="space-y-2">
+                  {/* <div className="space-y-2">
                     <label
                       htmlFor="mode-of-study"
                       className="text-sm font-medium"
@@ -1222,7 +1222,7 @@ export default function Home() {
                       <option value="onsite">Onsite</option>
                       <option value="online">Online</option>
                     </select>
-                  </div>
+                  </div> */}
 
                   <Button type="submit" className="w-full">
                     Submit Inquiry
