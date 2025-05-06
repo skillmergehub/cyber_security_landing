@@ -138,35 +138,35 @@ export default function Home() {
                   </p>
                 </div>
                 <form
-                  action="https://docs.google.com/forms/d/e/1FAIpQLSdbzF-aG4BRgDa09IdzH3cs_lACvSF-JGQE7tocl6CTPcnX-Q/formResponse"
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSd_G_KwGIxDwzjFiW861UgTvU7kls5MYEY79wkrQmg1E09CoQ/formResponse"
                   method="POST"
                   target="_blank"
                   className="space-y-4"
                 >
                   <Input
-                    name="entry.123456789" // Replace with actual entry ID
+                    name="entry.2057453151" // Full Name (confirmed from your form)
                     placeholder="Full Name"
                     required
                   />
                   <Input
-                    name="entry.987654321" // Replace with actual entry ID
+                    name="entry.1747561489" // Email Address (replace with actual entry ID)
                     type="email"
                     placeholder="Email Address"
                     required
                   />
                   <Input
-                    name="entry.456789123" // Replace with actual entry ID
+                    name="entry.1957476427" // Phone Number (replace with actual entry ID)
                     type="tel"
                     placeholder="Phone Number"
                     required
                   />
                   <Input
-                    name="entry.789123456" // Replace with actual entry ID
+                    name="entry.1946356195" // Highest Qualification (replace with actual entry ID)
                     placeholder="Your Highest Qualification"
                     required
                   />
 
-                  <div className="space-y-2">
+                  {/* <div className="space-y-2">
                     <label
                       htmlFor="mode-of-study"
                       className="text-sm font-medium"
@@ -174,15 +174,16 @@ export default function Home() {
                       Mode of Study
                     </label>
                     <select
-                      name="entry.321654987" // Replace with actual entry ID
+                      name="entry.706704483" // Mode of Study (replace with actual entry ID)
                       id="mode-of-study"
                       className="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none"
+                      required
                     >
                       <option value="">Select Mode of Study</option>
                       <option value="onsite">Onsite</option>
                       <option value="online">Online</option>
                     </select>
-                  </div>
+                  </div> */}
 
                   <Button type="submit" className="w-full">
                     Submit Inquiry
@@ -932,35 +933,35 @@ export default function Home() {
                     </p>
                   </div>
                   <form
-                    action="https://docs.google.com/forms/d/e/1FAIpQLSdbzF-aG4BRgDa09IdzH3cs_lACvSF-JGQE7tocl6CTPcnX-Q/formResponse"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSd_G_KwGIxDwzjFiW861UgTvU7kls5MYEY79wkrQmg1E09CoQ/formResponse"
                     method="POST"
                     target="_blank"
                     className="space-y-4"
                   >
                     <Input
-                      name="entry.123456789" // Replace with actual entry ID
+                      name="entry.2057453151" // Full Name (confirmed from your form)
                       placeholder="Full Name"
                       required
                     />
                     <Input
-                      name="entry.987654321" // Replace with actual entry ID
+                      name="entry.1747561489" // Email Address (replace with actual entry ID)
                       type="email"
                       placeholder="Email Address"
                       required
                     />
                     <Input
-                      name="entry.456789123" // Replace with actual entry ID
+                      name="entry.1957476427" // Phone Number (replace with actual entry ID)
                       type="tel"
                       placeholder="Phone Number"
                       required
                     />
                     <Input
-                      name="entry.789123456" // Replace with actual entry ID
+                      name="entry.1946356195" // Highest Qualification (replace with actual entry ID)
                       placeholder="Your Highest Qualification"
                       required
                     />
 
-                    <div className="space-y-2">
+                    {/* <div className="space-y-2">
                       <label
                         htmlFor="mode-of-study"
                         className="text-sm font-medium"
@@ -968,15 +969,16 @@ export default function Home() {
                         Mode of Study
                       </label>
                       <select
-                        name="entry.321654987" // Replace with actual entry ID
+                        name="entry.706704483" // Mode of Study (replace with actual entry ID)
                         id="mode-of-study"
                         className="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none"
+                        required
                       >
                         <option value="">Select Mode of Study</option>
                         <option value="onsite">Onsite</option>
                         <option value="online">Online</option>
                       </select>
-                    </div>
+                    </div> */}
 
                     <Button type="submit" className="w-full">
                       Submit Inquiry
